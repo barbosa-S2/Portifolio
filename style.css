@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:ital,wght@1,400;1,500&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    height: 100vh;
+    background: #3a3a3a;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+.navbar h2{
+     color: rgb(255, 173, 66);
+     font-weight: 600;
+     
+}
+.navbar h2:hover{
+    color: darkorange;
+    transition: color 0.5s ease;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.5s ease;
+}
+.navbar ul li:hover a{
+    color: rgb(255, 173, 66);
+}
+.navbar ul li:last-chil a{
+    margin: 0;
+}
+
+.hire-btn{
+    background: rgb(255, 173, 66);
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.4s ease;
+}
+.hire-btn:hover{
+    background: darkorange;
+}
+
+.Home{
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Home h1{
+    color: whitesmoke;
+}
+.Home span{
+    color: rgb(255, 173, 66);
+    text-decoration: underline;
+}
+.Home p.tittle{
+    font-size: 44px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-top: 8px;
+}
+.Home p.subtittle{
+    font-size: 16px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.Home img{
+    width: 70vh;
+}
+.guarantee{
+    margin-top: 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.guarantee .item{
+    background: #4e4e4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.guarantee .item:hover{
+    border-color: rgb(255, 173, 66);
+}
+.guarantee .item .icon{
+    width: 46px;
+    height: 46px;
+    background: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+}
+.guarantee .item:hover .icon{
+    background-color: rgb(255, 173, 66);
+}
+.guarantee .item .icon i{
+    font-size: 30px;
+}
+.guarantee .item .info h3{
+    color: rgb(255, 173, 66);
+    font-size: 28px;
+}
+.guarantee .item .info p{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 600;
+}
+.guarantee .item:hover > i{
+    color: rgb(255, 173, 66);
+}
+.separador{
+    margin: 50px 50px 30px;
+    padding: 14px 24px;
+    background: #4e4e4e;
+    display: inline-block;
+    color: rgb(255, 173, 66);
+    border-radius: 12px;
+}
+.about{
+    display: flex;
+}
+.about img{
+    width: 50vh
+}
+.about .info{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.about .info h1{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .info p{
+    color: #ffffff;
+    font-size: 17px;
+    width: 100%;
+}
+.about .info button{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.hire-btn{
+    background: rgb(255, 173, 66);
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.4s ease;
+}
+.hire-btn:hover{
+    background: #f85f00;
+}
+footer{
+    position: relative;
+    background: rgb(31, 31, 31);
+    padding: 80px 50px 40px;
+    margin-top: 150px;
+}
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgb(255, 173, 66);
+    padding: 30px 25px 30px 25px;
+    border-radius: 15px;
+    width: 93%;
+    top: -16%;
+    height: 20% -16%;
+   
+    margin-right: 10%;
+    
+}
+footer .start p{
+    font-size: 17px;
+    width: 35%;
+}
+footer .start button{
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+footer .start button:hover{
+    background-color: white;
+    border-color: white;
+}
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+footer .cols .about-col{
+    flex: 3;
+}
+footer .cols .about-col h1{
+    color: rgb(255, 173, 66);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .cols .about-col p{
+    color: white;
+    font-size: 17px;
+}
+footer .cols .links-col{
+    flex: 3;
+}
+footer .cols .links-col h2, footer .cols .news-col{
+    color: white;
+    margin-bottom: 20px;
+}
+footer .cols .links h2, footer .cols .news-col{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .cols .links a{
+    display: block;
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    line-height: 26px;
+    margin-right: 250px;
+}
+footer .cols .links a:hover{
+    color: rgb(255, 173, 66);
+}
+footer .cols .links-col a{
+    display: block;
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    line-height: 26px;
+}
+footer .cols .links-col a:hover{
+    color: rgb(255, 173, 66);
+}
+footer .cols .news-col p{
+    margin-top: 20px;
+}
+footer .cols .news-col form{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+footer .cols .news-col form input{
+    width: 100%;
+    background: rgb(31, 31, 31);
+    border: none;
+    padding: 13px;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 15px;
+}
+footer .cols .news-col form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: rgb(255, 173, 66);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: background-color 0,3s ease;
+
+}
+footer .cols .news-col form button:hover{
+    background-color: darkorange;
+}
+footer .cols .news-col form button i{
+    font-size: 26px;
+}
