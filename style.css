@@ -62,7 +62,7 @@ body{
 }
 
 .Home{
-    height:600px;
+    height:800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,6 +283,7 @@ footer .cols .links-col{
 }
 footer .cols .links-col h2, footer .cols .news-col{
     color: white;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 footer .cols .links h2, footer .cols .news-col{
@@ -436,6 +437,7 @@ footer .cols .news-col form button i{
     font-size: 20px;
   }
   .Home p.titlle{
+    align-items: center;
     font-size: 27px;
   }
   .Home p.subtittle{
