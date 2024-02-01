@@ -348,3 +348,140 @@ footer .cols .news-col form button:hover{
 footer .cols .news-col form button i{
     font-size: 26px;
 }
+
+@media screen and (max-width: 1100px) {
+    .guarantee{
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .guarantee .item{
+      flex-basis: 49%;
+    }
+    .skills{
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .skills .left{
+      width: 500px;
+    }
+    .skills .left .info h1{
+      font-size: 22px;
+    }
+    .skills .left .info p{
+      font-size: 12px;
+    }
+    footer{
+      margin-top: 150px;
+    }
+    footer .start{
+      width: 90%;
+      left: 5%;
+      top: -20%;
+    }
+    footer .cols{
+      flex-wrap: wrap;
+    }
+    footer .cols .about-col{
+      flex-basis: 50%;
+    }
+    footer .cols .links-col{
+      flex-basis: 50%;
+    }
+    footer .cols .news-col{
+      flex-basis: 50%;
+    }
+  }
+  @media screen and (max-width: 780px){
+    .navbar button{
+      display: none;
+    }
+    .Home h1{
+      font-size: 24px;
+    }
+    .Home p.tittle{
+      align-items: center;
+      font-size: 36px;
+    }
+    .Home p.subtittle{
+      font-size: 14px;
+    }
+    .guarantee{
+      display: block;
+    }
+    .guarantee .item{
+      flex-basis: 100%;
+    }
+    .about{
+      margin-top: -10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  } 
+  @media screen and (max-width: 650px){
+    .navbar{
+      justify-content: center;
+    }
+    .navbar h2{
+      display: none;
+    }
+    .navbar ul li a{
+      font-size: 14px;
+    }
+    .Home{
+      margin-top: 50px;
+      height: 320px;
+      justify-content: start;
+    }
+    .Home h1{
+    font-size: 20px;
+  }
+  .Home p.titlle{
+    font-size: 27px;
+  }
+  .Home p.subtittle{
+    font-size: 12px;
+  }
+  .Home img{
+    margin-top: 40px;
+    width: 100px;
+    height: 150px;
+  }
+  .skills{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skills .right{
+    justify-content: space-between;
+  }
+  .skills .left .info h1{
+    font-size: 28px;
+  }
+  footer .start{
+    top: -8%;
+  }
+  footer .start p{
+    display: none;
+  }
+  footer .cols .about-col{
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+  footer .cols .links-col{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  }
+  @media screen and (max-width: 480px){
+.Home p.tittle{
+  font-size: 18px;
+}
+.Home p.subtittle{
+  font-size: 10px;
+}
+.guarantee .item .info h1{
+font-size: 20px;
+}
+.guarantee .item .info p{
+  font-size: 12px;
+  }
+  }
